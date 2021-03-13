@@ -1,0 +1,37 @@
+az --help
+az group --help
+az group list --help
+az find "resource group"
+
+az group list -o table
+az group list -o table --verbose --debug
+
+az account list -o table
+
+# Change the following to use the subscription id from the previous command
+az account set --subscription "Subscription name or ID"
+
+az group create --name packt-azureml-cli-rg --location westeurope
+# Or the following short version
+# az group create -n packt-azureml-cli-rg -l westeurope
+
+az extension add -n azure-cli-ml
+az extension list -o table
+az extension update -n azure-cli-ml
+
+az ml workspace create -g packt-azureml-cli-rg -w packt-learning-cli-mlw -t Environment=Development
+az ml workspace delete -g packt-azureml-cli-rg -w packt-learning-cli-mlw --all-resources
+
+az deployment group create --name packt-deployment --resource-group packt-azureml-cli-rg --template-uri https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-machine-learning-advanced/azuredeploy.json --parameters workspaceName=packt-learning-arm-mlw location=westeurope
+
+# Make sure you update the custom_role.json to point to your subscription
+az role definition create --role-definition custom_role.json
+
+# Get the user id of user with mail username@organization.org
+az ad user list --query "[?mail=='username@organization.org'].objectId" --output tsv
+
+# Change the following <subscription_id> placeholder to point to the right subscription
+az role assignment create –assignee "user id" --role "ACI model deployer role" --scope "/subscriptions/<subscription_id>/resourceGroups/packt-azureml-rg/providers/Microsoft.MachineLearningServices/workspaces/packt-learning-mlw"
+
+# Or use the following snippet to achieve the same custom role assignment
+az ml workspace share -w packt-learning-mlw -g packt-azureml-rg --role "ACI model deployer role" --user username@organization.org

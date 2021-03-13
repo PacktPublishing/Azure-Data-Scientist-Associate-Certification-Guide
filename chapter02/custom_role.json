@@ -1,0 +1,10 @@
+{
+    "Name": "ACI model deployer role",
+    "IsCustom": true,
+    "Description": "Can deploy registered model on ACI resources",
+    "Actions": [
+        "Microsoft.MachineLearningServices/workspaces/services/aci/write"
+    ],
+    "NotActions": [ ],
+    "AssignableScopes":["/subscriptions/<subscription_id>"]
+}
