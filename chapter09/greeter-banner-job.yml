@@ -1,0 +1,5 @@
+name: banner-env
+dependencies:
+- python=3.6.2
+- pip:
+  - asciistuff==1.2.1
