@@ -1,0 +1,6 @@
+.ipynb_aml_checkpoints/ 
+.config/
+data/
+*.amltmp 
+*.amltemp
+.amlignore
