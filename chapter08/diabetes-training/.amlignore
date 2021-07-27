@@ -1,0 +1,4 @@
+*.amltmp
+.amlignore
+outputs
+.config
