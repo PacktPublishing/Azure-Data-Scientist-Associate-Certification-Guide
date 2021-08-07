@@ -1,0 +1,4 @@
+*automl.log
+.config
+outputs/
+.azureml/
