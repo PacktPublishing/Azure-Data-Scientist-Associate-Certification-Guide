@@ -24,7 +24,7 @@ parser.add_argument(
     type=str,
     dest="output_path",
     help="directory to store model",
-    default="./models",
+    default="./model",
 )
 args = parser.parse_args()
 
