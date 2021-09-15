@@ -9,7 +9,7 @@ parser.add_argument(
     "--learning-rate",
     type=float,
     dest="learning_rate",
-    help="Learning date for LightGBM",
+    help="Learning rate for LightGBM",
     default=0.01,
 )
 parser.add_argument(
@@ -23,7 +23,7 @@ parser.add_argument(
     "--output-path",
     type=str,
     dest="output_path",
-    help="directory to store model",
+    help="Directory to store model",
     default="./model",
 )
 args = parser.parse_args()
