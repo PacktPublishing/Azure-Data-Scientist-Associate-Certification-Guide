@@ -47,8 +47,7 @@ With the following software and hardware list you can run all code files present
 | 1        | Azure portal                    | Windows, Mac OS X, and Linux (Any) |
 | 2        | Azure Machine Learning Studio            | Windows, Mac OS X, and Linux (Any) |
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/
-downloads/9781800565005_ColorImages.pdf).
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781800565005_ColorImages.pdf).
 
 ### Related products <Other books you may enjoy>
 * Cloud Analytics with Microsoft Azure [[Packt]](https://www.packtpub.com/product/cloud-analytics-with-microsoft-azure/9781839216404) [[Amazon]](https://www.amazon.com/dp/1839216409)
