@@ -38,7 +38,8 @@ param_sampling = GridParameterSampling( {
 
 **Following is what you need for this book:**
 This book is for developers who want to infuse their applications with AI capabilities and data scientists looking to scale their machine learning experiments in the Azure cloud. Basic knowledge of Python is needed to follow the code samples used in the book. Some experience in training machine learning models in Python using common frameworks like scikit-learn will help you understand the content more easily.
-With the following software and hardware list you can run all code files present in the book (Chapter 1-15).
+
+With the following software and hardware list you can run all code files present in the book (Chapter 1-12).
 
 ### Software and Hardware List
 
@@ -49,7 +50,7 @@ With the following software and hardware list you can run all code files present
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781800565005_ColorImages.pdf).
 
-### Related products <Other books you may enjoy>
+### Related products
 * Cloud Analytics with Microsoft Azure [[Packt]](https://www.packtpub.com/product/cloud-analytics-with-microsoft-azure/9781839216404) [[Amazon]](https://www.amazon.com/dp/1839216409)
 
 * Cloud Scale Analytics with Azure Data Services [[Packt]](https://www.packtpub.com/product/cloud-scale-analytics-with-azure-data-services/9781800562936) [[Amazon]](https://www.amazon.com/dp/1800562934)
