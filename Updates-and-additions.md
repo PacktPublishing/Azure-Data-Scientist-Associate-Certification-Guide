@@ -66,3 +66,19 @@ The following image shows what will happen if you have changes in your working c
   runconfig = RunConfiguration()
   runconfig.environment = Environment.get(ws, 'AzureML-Tutorial')
   ```
+
+## April 2022 updates on the book
+
+- On page 235 [`start_logging` method]](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.experiment.experiment?view=azure-ml-py#azureml-core-experiment-experiment-start-logging) requires the mandatory `snapshot_directory=None` argument. This means that the following code
+
+  ```python
+  run = exp.start_logging()
+  print(run.get_details())
+  ```
+
+  needs to change to the following:
+
+  ```python
+  run = exp.start_logging(snapshot_directory=None, display_name="Run in notebook")
+  print(run.get_details())
+  ```
