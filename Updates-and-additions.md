@@ -69,7 +69,7 @@ The following image shows what will happen if you have changes in your working c
 
 ## April 2022 updates on the book
 
-- On page 235 [`start_logging` method](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.experiment.experiment?view=azure-ml-py#azureml-core-experiment-experiment-start-logging) requires the mandatory `snapshot_directory=None` argument. This means that the following code
+- On pages 235 and 242 [`start_logging` method](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.experiment.experiment?view=azure-ml-py#azureml-core-experiment-experiment-start-logging) requires the mandatory `snapshot_directory=None` argument. This means that the following code
 
   ```python
   run = exp.start_logging()
