@@ -98,3 +98,9 @@ The following image shows what will happen if you have changes in your working c
                         dest='alpha', help='The alpha parameter',
                         default= 0.001)
     ```
+
+- On pages 255, 269, 390, 404 and 409 the code has wrong casing for the package `.Python.`. The correct way is lowercase `.python.`. E.g.:
+  - instead of `minimal_env.Python.conda_dependencies` you should write `minimal_env.python.conda_dependencies`
+  - instead of `diabetes_env.Python.conda_dependencies` you should write `diabetes_env.python.conda_dependencies`
+  - instead of `myEnv.Python.conda_dependencies` you should write `myEnv.python.conda_dependencies`
+  - instead of `pEnv.Python.conda_dependencies` you should write `pEnv.python.conda_dependencies`
