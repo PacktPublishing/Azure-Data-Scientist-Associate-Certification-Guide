@@ -104,3 +104,6 @@ The following image shows what will happen if you have changes in your working c
   - instead of `diabetes_env.Python.conda_dependencies` you should write `diabetes_env.python.conda_dependencies`
   - instead of `myEnv.Python.conda_dependencies` you should write `myEnv.python.conda_dependencies`
   - instead of `pEnv.Python.conda_dependencies` you should write `pEnv.python.conda_dependencies`
+
+- On page 290, we can replace the first sentence to "In the Files view, add a new folder named termination-policy-training and add a new training.py
+file to it, as shown in Figure 9.7" to clearly specify that the `training.py` file is a new one and not a copy of the previous file.
