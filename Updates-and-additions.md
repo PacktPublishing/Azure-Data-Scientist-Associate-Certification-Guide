@@ -38,7 +38,7 @@ The following image shows what will happen if you have changes in your working c
   diabetes_env = Environment(name="diabetes-training-env")
   diabetes_env.python.conda_dependencies = CondaDependencies.create(
    conda_packages=[f"scikit-learn=={sklearn.__version__}"],
-   pip_packages=["azureml-defaults", "azureml-dataprep[pandas]"])
+   pip_packages=["azureml-core", "azureml-dataset-runtime[pandas]"])
   target = ws.compute_targets['cpu-sm-cluster']
   ```
 
@@ -107,3 +107,7 @@ The following image shows what will happen if you have changes in your working c
 
 - On page 290, we can replace the first sentence to "In the Files view, add a new folder named termination-policy-training and add a new training.py
 file to it, as shown in Figure 9.7" to clearly specify that the `training.py` file is a new one and not a copy of the previous file.
+
+## May 2022 updates on the book
+
+- Replace `azureml-defaults` pip package with `azureml-core`. Replace `azureml-dataprep` pip package with `azureml-dataset-runtime`. If you are using the old packages, environment building may time out while fetching packages from pip.
