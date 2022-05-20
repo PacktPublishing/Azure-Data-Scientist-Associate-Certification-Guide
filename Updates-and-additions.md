@@ -110,4 +110,4 @@ file to it, as shown in Figure 9.7" to clearly specify that the `training.py` fi
 
 ## May 2022 updates on the book
 
-- Replace `azureml-defaults` pip package with `azureml-core`. Replace `azureml-dataprep` pip package with `azureml-dataset-runtime`. If you are using the old packages, environment building may time out while fetching packages from pip.
+- Replace `azureml-defaults` pip package with `azureml-core` when needing to install the SDK. Replace `azureml-dataprep` pip package with `azureml-dataset-runtime`. If you are using the old packages, environment building may time out while fetching packages from pip.
