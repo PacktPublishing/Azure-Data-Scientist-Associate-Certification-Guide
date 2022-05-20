@@ -58,13 +58,13 @@ The following image shows what will happen if you have changes in your working c
   )
   ```
 
-- On page 347, the `AzureML-Tutorial` environment is only accessible through the `Environment.get(ws, "AzureML-Tutorial")` reference and not the `ws.environments["AzureML-Tutorial"]` notation that was used earlier in the book. The proper code snippet is the following:
+- On page 347, the `AzureML-Tutorial` environment was only accessible through the `Environment.get(ws, "AzureML-Tutorial")` reference and not the `ws.environments["AzureML-Tutorial"]` notation that was used earlier in the book. On May 2022, the `AzureML-Tutorial` environment was not accessible any more. The proper code snippet is the following:
 
   ```python
   from azureml.core import RunConfiguration, Environment
 
   runconfig = RunConfiguration()
-  runconfig.environment = Environment.get(ws, 'AzureML-Tutorial')
+  runconfig.environment = Environment.get(ws, 'AzureML-sklearn-1.0-ubuntu20.04-py38-cpu')
   ```
 
 ## April 2022 updates on the book
