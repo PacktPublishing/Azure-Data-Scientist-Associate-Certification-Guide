@@ -64,7 +64,7 @@ The following image shows what will happen if you have changes in your working c
   from azureml.core import RunConfiguration, Environment
 
   runconfig = RunConfiguration()
-  runconfig.environment = Environment.get(ws, 'AzureML-sklearn-1.0-ubuntu20.04-py38-cpu')
+  runconfig.environment = Environment.get(ws, 'AzureML-lightgbm-3.2-ubuntu18.04-py37-cpu')
   ```
 
 ## April 2022 updates on the book
@@ -111,3 +111,4 @@ file to it, as shown in Figure 9.7" to clearly specify that the `training.py` fi
 ## May 2022 updates on the book
 
 - Replace `azureml-defaults` pip package with `azureml-core` when needing to install the SDK. Replace `azureml-dataprep` pip package with `azureml-dataset-runtime`. If you are using the old packages, environment building may time out while fetching packages from pip.
+- On pages 270, 346 and 347, the environment named `AzureML-Tutorial` is not accessible from the workspace any more. Use `AzureML-lightgbm-3.2-ubuntu18.04-py37-cpu` instead.
