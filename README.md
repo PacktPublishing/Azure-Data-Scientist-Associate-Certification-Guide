@@ -63,3 +63,7 @@ is an experienced advisor working in the software industry. He has worked in the
 is an experienced architect focused on quickly understanding customers' business needs, with over 25 years of experience in IT pitfalls and successful projects, and is dedicated to creating solutions based on the Microsoft Platform. He has an MBA in Computer Science and Economics (from the Technical University and the University of Vienna) and an MSc (from the ESBA) in Systemic Coaching. He was working on advanced analytics projects in the last decade, including massive parallel systems and Machine Learning systems. He enjoys working with customers and supporting the journey to the cloud.
 
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781800565005">https://packt.link/free-ebook/9781800565005 </a> </p>
