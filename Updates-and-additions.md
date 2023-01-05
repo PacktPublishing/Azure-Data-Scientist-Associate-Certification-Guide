@@ -112,3 +112,7 @@ file to it, as shown in Figure 9.7" to clearly specify that the `training.py` fi
 
 - Replace `azureml-defaults` pip package with `azureml-core` when needing to install the SDK. Replace `azureml-dataprep` pip package with `azureml-dataset-runtime`. If you are using the old packages, environment building may time out while fetching packages from pip.
 - On pages 270, 346 and 347, the environment named `AzureML-Tutorial` is not accessible from the workspace any more. Use `AzureML-lightgbm-3.2-ubuntu18.04-py37-cpu` instead.
+
+## January 2023 updates on the book
+
+- In the `Compute` section of the workspace, the `Inference clusters` tab has been renamed to `Kubernetes clusters`. This tab now holds both the "attached Kubernetes" compute types which used to be in the `Attached computes` tab and any previously created inference clusters you may have had. Learn more about this change in [the official documentation](https://learn.microsoft.com/azure/machine-learning/how-to-attach-kubernetes-anywhere#kubernetescompute-and-legacy-akscompute).
