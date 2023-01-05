@@ -30,9 +30,11 @@ This book covers the following exciting features:
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1800565003) today!
 
-<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
-alt="https://www.packtpub.com/" border="5" /></a>
+<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" alt="https://www.packtpub.com/" border="5" /></a>
 
+> For content updates and additional content have a look in the "[Updates and additional topics](./Updates-and-additions.md)" page.
+
+> You can find the answers to the book's questions in the "[Knowledge check answers](./Knowledge-check-answers.md)" page.
 
 ## Instructions and Navigations
 All of the code is organized into folders. For example, Chapter02.
